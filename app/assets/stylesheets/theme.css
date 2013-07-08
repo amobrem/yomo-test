@@ -32,7 +32,7 @@ body {
 	z-index: 1000;
 	height: 140px; 
 }
-.inner_content { padding:0; text-align: center;}
+.inner_content { padding:0; text-align:center;}
 .wrapper {  margin:0px auto; padding:0 0 60px;}
 #banner { background:#e9e6e1; width: 100%; }
 #footer2 {
@@ -217,7 +217,7 @@ h3.follow {
 @media (max-width: 979px) {
 .logo  {margin:0px auto 0px auto;}
 .logo a {margin:0px auto 0px auto;float:none !important;}
-.header{ float:none !important;margin:0px auto 0px auto; max-height: 86px;}
+.header{ float:none !important;margin:0px auto 0px auto; max-height:86px;}
 .container {  padding: 0 15px !important;}
 #banner { padding-bottom:25px!important; }
 h1 { font-size: 20px; }
