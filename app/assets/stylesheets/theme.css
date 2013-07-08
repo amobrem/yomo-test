@@ -204,3 +204,29 @@ h3.follow {
 
 .copyright2 a {color:#fff; }
 .copyright2 a:hover {color:#777; }
+
+/*-----------------------------------------------------------------------------------*/
+/*	08: MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 979px) {
+.logo  {margin:0px auto 0px auto;}
+.logo a {margin:0px auto 0px auto;float:none !important;}
+.header{ float:none !important;text-align:center;margin:0px auto 0px auto; height: 86px;}
+.container {  padding: 0 15px !important;}
+#banner { padding-bottom:25px!important; }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (max-width: 480px) { 
+.nivo_height { padding-top:0px!important; }
+#banner { padding-bottom:25px!important; }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 320px) {
+h1.title { line-height:40px!important; }
+}
