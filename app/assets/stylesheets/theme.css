@@ -24,6 +24,7 @@ body {
 
 /**** PAGE CONTAINERS ****/
 .header { 
+	text-align:center;
 	padding: 0;
 	background:#F17936;
 	margin:0 auto; 
@@ -195,6 +196,7 @@ h3.follow {
 #footer { background-color:#45B39E; padding: 40px 0 30px; text-align:center; }
 #footer2 {
 	position:relative;
+	bottom 0;
 	text-align:center;
 	padding:39px 0 36px; 
 	background:#F17936;
@@ -215,7 +217,7 @@ h3.follow {
 @media (max-width: 979px) {
 .logo  {margin:0px auto 0px auto;}
 .logo a {margin:0px auto 0px auto;float:none !important;}
-.header{ float:none !important;text-align:center;margin:0px auto 0px auto; height: 86px;}
+.header{ float:none !important;margin:0px auto 0px auto; max-height: 86px;}
 .container {  padding: 0 15px !important;}
 #banner { padding-bottom:25px!important; }
 h1 { font-size: 20px; }
