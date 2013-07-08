@@ -31,12 +31,16 @@ body {
 	z-index: 1000;
 	height: 140px; 
 }
-.inner_content { padding:20px 0 0 0; text-align: center;}
+.inner_content { padding:0; text-align: center;}
 .wrapper {  margin:0px auto; padding:0 0 60px;}
 #banner { background:#e9e6e1; width: 100%; }
-.intro_wrapper {  margin:0 auto; padding:0 0 40px;}
-.intro_wrapper2 {  margin:-6px auto 0; padding:0 0 40px;}
-.intro_wrapper3 {  margin:-20px auto 0; padding:0 0 40px;}
+#footer2 {
+	background:#F17936;
+	margin:0 auto; 
+	width: 100%;
+	z-index: 1000;
+}
+
 
 /**** GENERAL ****/
 a, input, select, textarea {outline:none; text-decoration:none; }
@@ -132,14 +136,12 @@ img { vertical-align:top; ms-interpolation-mode:bicubic; opacity:1.0;}
 /**** TYPOGRAPHY ****/
 h1,h2,h3,h4,h5,h6 { font-weight:300; letter-spacing:-0.25px; }
 h1.title {  font-size:36px; font-weight:700; }
-h1 { font-size: 24px; line-height:40px; }
+h1 { font-size: 24px; line-height:24px; }
 h2 { font-size: 21px;  line-height:28px; }
 h3 { font-size: 18px; line-height:25px; }
 h4 { font-size: 16px; line-height:25px; margin-bottom:10px; }
 h5 { font-size: 15px; line-height:22px; margin-bottom:10px; }
 h6 { font-size: 14px; line-height:22px; margin-bottom:10px; }
-h1.intro {  line-height:40px; font-weight:300;}
-.lead { font-size:18px; line-height:24px; }
 
 /**** LOGO****/
 .logo a{
@@ -205,6 +207,7 @@ h3.follow {
 .copyright2 a {color:#fff; }
 .copyright2 a:hover {color:#777; }
 
+
 /*-----------------------------------------------------------------------------------*/
 /*	08: MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
@@ -215,7 +218,8 @@ h3.follow {
 .header{ float:none !important;text-align:center;margin:0px auto 0px auto; height: 86px;}
 .container {  padding: 0 15px !important;}
 #banner { padding-bottom:25px!important; }
-h1.title {  font-size:18px; line-height:35px; font-weight:700; }
+h1 { font-size: 20px; }
+h1.title {  font-size:24px; font-weight:700; }
 }
 
 /* All Mobile Sizes (devices and browser) */
