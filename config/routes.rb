@@ -1,4 +1,5 @@
 YomoTest40::Application.routes.draw do
+  resources :users
   root :to => 'welcome#index'
   get '/sdboost'                   => 'event#index'
   
