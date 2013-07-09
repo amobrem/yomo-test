@@ -1,5 +1,5 @@
-# Load the rails application
+# Load the Rails application.
 require File.expand_path('../application', __FILE__)
 
-# Initialize the rails application
-Yomo2::Application.initialize!
+# Initialize the Rails application.
+YomoTest40::Application.initialize!

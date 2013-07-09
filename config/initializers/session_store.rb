@@ -1,8 +1,3 @@
 # Be sure to restart your server when you modify this file.
 
-Yomo2::Application.config.session_store :cookie_store, key: '_yomo-2_session'
-
-# Use the database for sessions instead of the cookie-based default,
-# which shouldn't be used to store highly confidential information
-# (create the session table with "rails generate session_migration")
-# Yomo2::Application.config.session_store :active_record_store
+YomoTest40::Application.config.session_store :cookie_store, key: '_yomo-test-4_0_session'
