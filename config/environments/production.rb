@@ -68,8 +68,8 @@ YomoTest40::Application.configure do
     :address   => "smtp.mandrillapp.com",
     :port      => 587, # ports 587 and 2525 are also supported with STARTTLS
     :enable_starttls_auto => true, # detects and uses STARTTLS
-    :user_name => "app16836313@heroku.com",
-    :password  => "RzUy8qmVpG66hx-eAK7v-Q", # SMTP password is any valid API key
+    :user_name => ENV["MANDRILL_USERNAME"],
+    :password  => ENV["MANDRILL_PASSWORD"],
     :authentication => 'plain', # Mandrill supports 'plain' or 'login'
     :domain => 'yomoments.com', # your domain to identify your server when connecting
   }
